@@ -1,0 +1,95 @@
+/* Resetando margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de Barra de Navegação */
+.navbar {
+    border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+/* Seção de Introdução */
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.jumbotron img {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* Seção sobre o Spring Framework */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+section img {
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Seção de Benefícios */
+.bg-light {
+    background-color: #f1f1f1;
+}
+
+.bg-light h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.bg-light p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.bg-light .row {
+    margin-top: 30px;
+}
+
+.bg-light .col-md-4 {
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #fff;
+
+
+.container img{
+   display: flex;
+}
+}

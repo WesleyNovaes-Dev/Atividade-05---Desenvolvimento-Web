@@ -1,25 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background-color: #4CAF50; color: white; padding: 20px; }
-        main { margin: 20px; }
-        footer { background-color: #f1f1f1; padding: 10px; }
-    </style>
+    <title>Implementação Spring Framework</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-<header><h1>Bem-vindo ao meu site</h1></header>
-<main><p>Essa é uma página HTML básica hospedada no Vercel.</p></main>
-<footer>
-    <h2>Desenvolvido por</h2>
-    <p>João Pedro Victorino Medeiros</p>
-    <p>Pablo Henrique Moral Monfre</p>
-    <p>Wesley Zanon</p>
-    <p>Carlos</p>
+
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Spring Framework</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Seção de Introdução -->
+<section class="jumbotron text-center">
+    <div class="container">
+        <h1 class="display-4">Bem-vindo ao Spring Framework!</h1>
+        <p class="lead">Entenda a importância e os benefícios do Spring Framework para o desenvolvimento de aplicações Java.</p>
+        <hr class="my-4">
+
+    </div>
+</section>
+
+<!-- Seção sobre o Spring Framework -->
+<section class="container my-5">
+    <h2 class="text-center">O que é o Spring Framework?</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                O Spring Framework é uma plataforma de desenvolvimento de software para a criação de aplicações em Java. Ele oferece suporte a uma vasta gama de funcionalidades, como a injeção de dependências, acesso a banco de dados, controle de transações, e muito mais. Com o Spring, os desenvolvedores podem criar aplicações robustas, escaláveis e de fácil manutenção.
+            </p>
+            <p>
+                O Spring Framework possui uma arquitetura modular que permite aos desenvolvedores escolher apenas os módulos necessários para suas aplicações, tornando-as mais leves e rápidas.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4UaPXIlRQNumVXvDbikgP1FtnoNbzPxIg4A&s" alt="Spring Framework" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<!-- Seção de Benefícios -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Benefícios do Spring Framework</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Desenvolvimento Rápido</h4>
+                <p>Com o Spring Boot, os desenvolvedores podem iniciar rapidamente a criação de aplicações, reduzindo a quantidade de configuração necessária.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Injeção de Dependência</h4>
+                <p>Spring promove um design desacoplado e flexível por meio da Injeção de Dependência (DI), o que facilita testes e manutenção.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Amplo Ecossistema</h4>
+                <p>Spring oferece suporte a várias tecnologias e frameworks, como Spring Data, Spring Security, e Spring Cloud, permitindo integração com diversas plataformas.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2025 Spring Framework | Todos os direitos reservados.</p>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
