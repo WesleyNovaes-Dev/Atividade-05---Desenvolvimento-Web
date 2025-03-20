@@ -16,6 +16,11 @@ Este repositório foi criado para a atividade prática de versionamento e deploy
 
 ---  
 
+O projeto está disponível online através do Vercel no link abaixo:  
+🔗 [Acesse o site aqui](https://atividade-05-desenvolvimento-web.vercel.app/)  
+
+---
+
 ### 👤 Desenvolvido por
 João Pedro Victorino Medeiros    
 Pablo Henrique Moral Monfre      
