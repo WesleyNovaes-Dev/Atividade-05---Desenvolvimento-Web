@@ -22,7 +22,7 @@ Este repositório foi criado para demonstrar a implementação de uma página we
 ---
 
 O projeto está disponível online através do link abaixo:  
-🔗 [Acesse o site aqui](https://atividade-05-desenvolvimento-hhixasudi.vercel.app/)  
+🔗 [Acesse o site aqui](https://atividade-05-desenvolvimento-web.vercel.app/)  
 
 ---
 
